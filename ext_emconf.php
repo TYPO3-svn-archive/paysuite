@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext: "paysuite"
 #
-# Auto generated 04-07-2007 11:29
+# Auto generated 18-04-2008 15:44
 #
 # Manual updates:
 # Only the data in the array - anything else is removed by next write.
@@ -29,16 +29,19 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '0.0.0',
+	'version' => '0.0.1',
 	'constraints' => array(
 		'depends' => array(
+			'php' => '5.1.2-0.0.0',
 		),
 		'conflicts' => array(
 		),
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:5:{s:9:"ChangeLog";s:4:"1c5f";s:10:"README.txt";s:4:"ee2d";s:12:"ext_icon.gif";s:4:"1bdc";s:19:"doc/wizard_form.dat";s:4:"18c6";s:20:"doc/wizard_form.html";s:4:"8494";}',
+	'_md5_values_when_last_written' => 'a:4:{s:9:"ChangeLog";s:4:"3813";s:10:"README.txt";s:4:"ee2d";s:12:"ext_icon.gif";s:4:"1bdc";s:29:"lib/class.tx_paysuite_lib.php";s:4:"a47c";}',
+	'suggests' => array(
+	),
 );
 
 ?>
